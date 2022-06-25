@@ -45,7 +45,9 @@
         "react/button-has-type": "off",
         "import/prefer-default-export": "off",
         "no-plusplus": "off",
-        "prefer-const": "off"
+        "prefer-const": "off",
+        "consistent-return": "off",
+        "no-param-reassign": "off"
     },
     "settings": {
         "import/resolver": {

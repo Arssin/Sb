@@ -1,3 +1,6 @@
+Just wanted to say, that CORS from this api server (GET https://api.iforbet.pl/rest/market/categories
+) is blocking fetching methods on localservers. That's why i needed to copy data file to JSON.
+
 ## Starting project.
 
 1. Unpack the zip anywhere you want.

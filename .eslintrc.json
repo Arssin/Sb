@@ -47,7 +47,8 @@
         "no-plusplus": "off",
         "prefer-const": "off",
         "consistent-return": "off",
-        "no-param-reassign": "off"
+        "no-param-reassign": "off",
+        "react/require-default-props": "off"
     },
     "settings": {
         "import/resolver": {

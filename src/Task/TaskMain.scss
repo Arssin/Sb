@@ -3,21 +3,59 @@
     flex-direction: column;
     font-size: 0.8em;
     overflow: scroll;
-    height: 80%;
+    height: 90%;
     width: 40%;
     list-style: none;
     border: 3px solid rgb(245, 244, 244);
-    padding: 0 10px;
+    padding: 10px;
 
-    .levelsLists {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        // flex-direction: column;
+    .icons {
+        width: 3em;
+        height: 3em;
     }
-}
 
-.icons {
-    width: 3em;
-    height: 3em;
+    .levelOne {
+        position: relative;
+        padding: 10px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 3px solid rgb(160, 120, 120);
+        padding: 10px;
+        gap: 1rem;
+    }
+
+    .listOne {
+        border: rgb(133, 197, 223) 4px solid;
+        list-style: none;
+    }
+    .listTwo {
+        border: rgb(65, 67, 172) 4px solid;
+        padding: 10px;
+        list-style: none;
+    }
+
+    .noList {
+        list-style-type: none;
+        padding: 5px;
+    }
+    .noListLast {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+        padding-left: 0;
+        width: 100%;
+    }
+    .inputs {
+        display: flex;
+        gap: 1rem;
+        padding-left: 15px;
+        align-items: center;
+    }
+    .counter {
+        display: flex;
+        gap: 0.8rem;
+    }
 }

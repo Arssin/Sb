@@ -13,4 +13,4 @@
 
 ## Starting project 3 (problems with 2nd)
 
-1. visit website:
+1. visit website: https://silver-stroopwafel-1a953f.netlify.app/
